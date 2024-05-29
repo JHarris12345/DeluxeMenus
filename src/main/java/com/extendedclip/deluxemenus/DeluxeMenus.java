@@ -100,7 +100,7 @@ public class DeluxeMenus extends JavaPlugin {
     menuItemMarker = new MenuItemMarker(this);
     dupeFixer = new DupeFixer(this, menuItemMarker);
 
-    this.adventure = BukkitAudiences.create(this);
+    //this.adventure = BukkitAudiences.create(this);
 
     setupItemHooks();
 
